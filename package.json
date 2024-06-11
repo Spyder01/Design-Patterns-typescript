@@ -1,15 +1,35 @@
 {
-  "name": "patterns4ts",
-  "version": "0.0.1",
-  "description": "Design patterns for typescript. ",
-  "main": "index.js",
+  "name": "ts-design-patterns",
+  "private": false,
+  "version": "0.0.2",
+  "description": "Design patterns for typescript.",
+  "main": "dist/index.js",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Spyder01",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "typescript": "^5.4.5"
-  }
+  },
+  "files": [
+    "dist",
+    "design-patterns",
+    "index.js",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Spyder01/Design-Patterns-typescript"
+  },
+  "keywords": [
+    "typescript",
+    "design patterns",
+    "patterns"
+  ],
+  "bugs": {
+    "url": "https://github.com/Spyder01/Design-Patterns-typescript"
+  },
+  "homepage": "https://github.com/Spyder01/Design-Patterns-typescript#readme"
 }
